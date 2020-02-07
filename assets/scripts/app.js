@@ -34,7 +34,7 @@ const Portfolio = function() {
 	}
 
 	function makeWordCloud(words) {
-		$('.teaching-domains').jQCloud(words, {delay: 120});
+		$('.part2').jQCloud(words, {delay: 120});
 	}
 
 	function displayWordCloud() {
@@ -57,11 +57,11 @@ const Portfolio = function() {
 	function typeAnimation() {
 		Typed.new("#writing-text", {
 			strings: [
-				"am a B.Tech Student.", "love everything about code.", "loves to read about new Technology", "solve problems."
+				"am a B.Tech Student.", "love everything about code.", "love to read about new technology", "solve problems."
 			],
-			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+			
 			stringsElement: null,
-			// typing speed
+			
 			typeSpeed: 1,
 			contentType: 'text',
 			callback: function() {
