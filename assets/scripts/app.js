@@ -11,11 +11,11 @@ const Portfolio = function() {
 				text: "Python",
 				weight: 14
 			}, {
-				text: "Javascipt",
-				weight: 3
+				text: "WebDev",
+				weight: 7
 			}, {
 				text: "programming",
-				weight: 7
+				weight: 5
 			}, {
 				text: "Java",
 				weight: 10
@@ -26,7 +26,7 @@ const Portfolio = function() {
 				text: "Prafull",
 				weight: 15
 			}, {
-				text: "UC",
+				text: "Flask",
 				weight: 7
 			}
 		];
