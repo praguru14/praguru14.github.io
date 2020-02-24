@@ -57,12 +57,12 @@ const Portfolio = function() {
 	function typeAnimation() {
 		Typed.new("#writing-text", {
 			strings: [
-				"am a B.Tech Student.", "love everything about code.", "love to read about new technology", "solve problems."
+				"am a B.Tech Student.", "love everything about code.", "love to read about technology and science.", "solve problems."
 			],
 			
 			stringsElement: null,
 			
-			typeSpeed: 1,
+			typeSpeed: 1.4,
 			contentType: 'text',
 			callback: function() {
 				$("#writing-text").css({"color": "#fff", "background-color": "#C8412B"});
